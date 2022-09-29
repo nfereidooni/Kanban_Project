@@ -1,0 +1,28 @@
+.taskCard {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.taskTitle {
+    
+}
+
+.taskDesc {
+    
+}
+
+.taskPriority {
+    
+}
+
+.highPriority {
+    color: red;
+}
+
+.mediumPriority {
+    color: orange;
+}
+
+.lowPriority {
+    color: green;
+}
