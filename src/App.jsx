@@ -4,6 +4,7 @@ export default function App() {
   return (
     <main>
       React ⚛️ + Vite ⚡ + Replit 🌀
+        Hello World
     </main>
   )
 }
