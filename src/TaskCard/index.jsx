@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 
 export default function TaskCard({ title, description, priority }) {
     let priorityClassname = priority.toLowerCase() + "Priority"

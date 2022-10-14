@@ -1,13 +1,31 @@
-import './App.css'
-import TaskCard from './TaskCard'
+import './App.css';
+import Header from './Header';
+import Board from './Board';
 
 export default function App() {
   return (
     <div className="main">
-      <TaskCard title={"Brush Teeth"} description={"Use toothpaste"} priority={"High"} />
-      <TaskCard title={"Comb Hair"} description={"Comb out damp hair"} priority={"Medium"} />
-      <TaskCard title={"Moisturize"} description={"Aveeno lotion"} priority={"High"} />
-      <TaskCard title={"Fold Laundry"} description={"Whites only today"} priority={"Low"}/>
+        <Header />
+        <Board />
     </div>
   )
 }
+
+// input to add a new task
+// editing a task
+    // edit title, description, priority
+    // move tasks between columns (arrow, dropdown button)
+// deleting a task
+// columns for kanban with labels
+// data driven - useState to keep track of what the tasks are
+// localstorage
+// archive button
+
+// finish styling cards
+// greyed out when done styling
+
+// components to create
+    // phaseList
+
+// extra stuff:
+// add, edit, delete columns
