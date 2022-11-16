@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function TaskCard({ title, description, priority }) {
+export default function TaskCard({ title, description="Lorem Ipsum Dolor", priority="Low" }) {
     let priorityClassname = priority.toLowerCase() + "Priority"
     console.log(priorityClassname)
     return (

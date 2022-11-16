@@ -2,38 +2,7 @@ import './style.css';
 import TaskCard from '../TaskCard';
 import { useState } from 'react';
 
-const startingTasks = [
-  {
-    title: "Example Task 1",
-    description: "Lorem Ipsum Dolor",
-    priority: "Low"
-  },
-  {
-    title: "Example Task 2",
-    description: "Lorem Ipsum Dolor",
-    priority: "High"
-  },
-  {
-    title: "Example Task 3",
-    description: "Lorem Ipsum Dolor",
-    priority: "Low"
-  },
-  {
-    title: "Example Task 4",
-    description: "Lorem Ipsum Dolor",
-    priority: "Medium"
-  },
-  {
-    title: "Example Task 5",
-    description: "Lorem Ipsum Dolor",
-    priority: "High"
-  },
-];
-
-export default function TaskList() {
-
-  const [tasks, setTasks] = useState(startingTasks)
-
+export default function TaskList( {tasks} ) {
   return (
     <div className="TaskList">
       {tasks.map(function(task) {
